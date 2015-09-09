@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+    <link rel='stylesheet' href='/stylesheets/font.css' />
+
+    <link rel='stylesheet' href='/bootstrap/bootstrap.min.css' />
+    <link rel='stylesheet' href='/font-awesome-4.4.0/css/font-awesome.min.css' />
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+<body>
+
+
+<!-- ******HEADER****** -->
+<header class="header">
+    <div class="container">
+        <div class="logo pull-left"><img class="logo-image" src="/images/logo.png"></div>
+        <div class="branding pull-left">
+            <h1 class="name"><a href="https://demo.htmly.com/">Blog Demo</a></h1>
+            <p class="desc">Just another demo blog</p>
+            <ul class="social list-inline">
+                <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://www.tumblr.com/"><i class="fa fa-tumblr"></i></a></li>
+                <li><a href="https://demo.com/feed/rss"><i class="fa fa-rss"></i></a></li>
+            </ul>
+        </div><!--//branding-->
+        <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="menu navbar-collapse collapse pull-right">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-search"></i></a>
+                        <div class="dropdown-menu searchbox" role="menu">
+                            <form id="search" class="navbar-form search" role="search">
+                                <div class="input-group">
+                                    <input type="search" name="search" class="form-control" placeholder="Type to search">
+                                    <span class="input-group-btn"><button type="submit" class="btn btn-default btn-submit"><i class="fa fa-angle-right"></i></button></span>
+                                </div>
+                            </form>
+                        </div>
+                    </li><!-- /.searchbox -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="item first"><a href="/">Home</a></li>
+                    <li class="item active"><a href="/">Demo</a></li>
+                    <li class="item"><a href="/">About</a></li>
+                    <li class="item"><a href="/">Contact</a></li>
+                    <li class="item last"><a href="/">Download</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div><!--//container-->
+</header><!--//header-->
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-8 col-sm-12 col-xs-12">
+            <section class="post section post first">
+                <div class="section-inner">
+                    <div class="content">
+                        <div class="item">
+                            <div class="featured featured-image">
+                                <a href="/"><img itemprop="image" src="#" alt="Scuba Diving"></a>
+                            </div>
+                            <div class="info text-left">
+                                <h2 class="title" itemprop="headline"><a href="/">Scuba Diving</a></h2>
+                                <p class="meta">
+                                    <span class="date" itemprop="datePublished">26 July 2015</span> - Posted in
+                                    <span itemprop="articleSection"><a href="/">Travel</a></span> by
+                                    <span itemprop="author"><a href="/">dan</a></span>
+
+                                    with <span><i class="fa fa-comments"></i> <a href="/">1 Comment</a></span>
+                                </p>
+                            </div>
+                            <div class="desc text-left" itemprop="articleBody">
+                                <p>Scuba diving is a form of underwater diving in which a diver uses a self-contained underwater breathing apparatus (scuba) to breathe underwater. nlike other modes of diving, which rely either on</p>
+                            </div><!--//desc-->
+                            <div style="position:relative;">
+                                <span class="more"><a class="btn btn-cta-secondary" href="https://demo.htmly.com/2015/07/scuba-diving">Read more</a></span>
+                                <span class="share pull-right">
+                                    <a target="_blank" class="first" href="https://www.facebook.com/sharer.php?u=https://demo.htmly.com/2015/07/scuba-diving&t=Scuba%20Diving"><i class="fa fa-facebook"></i></a>
+                                    <a target="_blank" href="https://twitter.com/share?url=https://demo.htmly.com/2015/07/scuba-diving&text=Scuba%20Diving"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" class="last" href="https://plus.google.com/share?url=https://demo.htmly.com/2015/07/scuba-diving"><i class="fa fa-google-plus"></i></a>
+                                </span>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div>
+
+        <div class="secondary col-md-4 col-sm-12 col-xs-12">
+            <aside class="aside section">
+                <div class="section-inner">
+                    <h2 class="heading">About</h2>
+                    <div class="content">
+                        Proudly powered by HTMLy, a databaseless blogging platform.
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+        </div>
+    </div>
+</div>
+
+
+            <!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="container text-center">
+        <p>(c) Blog demo.</p><p>Proudly powered by <a href="/">Blog demo</a></p>
+    </div><!--//container-->
+</footer><!--//footer-->
+
+<script type="text/javascript" src="/javascripts/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/bootstrap/bootstrap.min.js"></script>
+
+
+</body>
+</html>
